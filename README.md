@@ -43,10 +43,17 @@
 
 ### Database Setup :
 
-PostGreSQL for the following reasons:
+- Configure Django Settings
+- Install Database Adaptor dependencies
 
-- Popular Open Source DB
-- Integrates well with Django
+Django needs to know...
+- Engine
+- Hostname
+- Port
+- Database Name
+- Username
+- Password
+
 
 ### Architecture
 
