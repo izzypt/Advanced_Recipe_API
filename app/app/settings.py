@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'core',
+    'rest_framework',
+    'drf_spectacular',
 ]
 
 MIDDLEWARE = [
@@ -131,3 +133,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Authentication user
 AUTH_USER_MODEL = 'core.User'
+
+# DRF settings
+REST_FRAMEWORK = {
+    'DEFAULT_SCHEMA_CLASS' : 'drf_spectacular.openapi.AutoSchema',
+}
