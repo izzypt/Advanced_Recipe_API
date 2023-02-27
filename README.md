@@ -40,3 +40,23 @@
 - Define Dockerfile (Contains all the operating system dependencies that our project needs )
 - Create Docker Compose Configuration (How to run the images that are created from our Docker file configuration)
 - Run All commands via docker compose
+
+### Database Setup :
+
+- Configure Django Settings
+- Install Database Adaptor dependencies
+
+Django needs to know...
+- Engine
+- Hostname
+- Port
+- Database Name
+- Username
+- Password
+
+
+### Architecture
+
+![image](https://user-images.githubusercontent.com/73948790/221037631-cf1aaf38-6324-4c69-8d51-87ca240b6920.png)
+
+Docker compose will have 2 different services : Database and the django server.
