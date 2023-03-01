@@ -30,7 +30,6 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -40,7 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'core',
     'rest_framework',
+    'rest_framework.authtoken',
     'drf_spectacular',
+    'user',
+    'recipe',
 ]
 
 MIDDLEWARE = [
